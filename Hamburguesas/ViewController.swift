@@ -10,8 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var labelTitle: UILabel!
     @IBOutlet weak var labelHamburguesa: UILabel!
     @IBOutlet weak var labelPais: UILabel!
+    @IBOutlet weak var labelButton: UIButton!
+    
+    let colores = Color()
+    let hamburguesas = ColeccionDeHamburguesa()
+    let paises = ColeccionDePaises()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +30,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonHamburguesa() {
+        labelHamburguesa.text = hamburguesas.obtenHamburguesa()
+        labelPais.text = paises.obtenPais()
+        view.backgroundColor = colores.obtenColor()
+        labelHamburguesa.textColor = UIColor(red: 255.0, green: 255.0, blue: 255.0, alpha: 1.0)
+        labelPais.textColor = UIColor(red: 255.0, green: 255.0, blue: 255.0, alpha: 1.0)
+        labelTitle.textColor = UIColor(red: 255.0, green: 255.0, blue: 255.0, alpha: 1.0)
+        labelButton.backgroundColor = UIColor(red: 255.0, green: 255.0, blue: 255.0, alpha: 1.0)
+        
     }
 
 
