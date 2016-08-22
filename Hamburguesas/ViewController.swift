@@ -36,8 +36,8 @@ class ViewController: UIViewController {
         labelHamburguesa.textColor = UIColor(red: 255.0, green: 255.0, blue: 255.0, alpha: 1.0)
         labelPais.textColor = UIColor(red: 255.0, green: 255.0, blue: 255.0, alpha: 1.0)
         labelTitle.textColor = UIColor(red: 255.0, green: 255.0, blue: 255.0, alpha: 1.0)
-        labelButton.backgroundColor = UIColor(red: 255.0, green: 255.0, blue: 255.0, alpha: 1.0)
-        
+        // labelButton.backgroundColor = UIColor(red: 255.0, green: 255.0, blue: 255.0, alpha: 1.0)
+        labelButton.tintColor = UIColor(red: 255.0, green: 255.0, blue: 255.0, alpha: 1.0)
     }
 
 

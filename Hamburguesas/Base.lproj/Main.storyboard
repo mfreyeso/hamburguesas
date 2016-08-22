@@ -49,6 +49,9 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hamburguesa" translatesAutoresizingMaskIntoConstraints="NO" id="hM5-f7-yMj">
+                                <rect key="frame" x="67" y="160" width="240" height="159"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -76,4 +79,7 @@
             <point key="canvasLocation" x="632.5" y="366.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Hamburguesa" width="113" height="91"/>
+    </resources>
 </document>
